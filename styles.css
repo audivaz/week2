@@ -1,0 +1,10 @@
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+/* CSS will complain if we try to select and id with the value of # */
+## {
+	color: blue;
+}
