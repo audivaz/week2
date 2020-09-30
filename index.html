@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     
-    <h1>Hello and Welcome</h1>
-    <p>Here's a link to one of my favorite sites</p>
-    <a href="https://www.rottentomatoes.com/" target="blank_">One of my favorite sites to visit: Rotten Tomatoes</a>
+    <div class="intro">
+        <h1>Hello and Welcome everyone</h1>
+        <p>Here's a link to one of my favorite sites</p>
+        <a href="https://www.rottentomatoes.com/" target="blank_" class="likeRT">One of my favorite sites to visit: Rotten Tomatoes</a>
 
-    <p>I'm a <strong>huge</strong> movie fan and also grew up watching a lot of <em>Anime.</em></p>
+        <p>I'm a <strong>huge</strong> movie fan and also grew up watching a lot of <em>Anime.</em></p>
+    </div>
 
+
+    <div class="favs">
     <ul>
         <p>Favorite Movie Genres</p>
         <li>Action</li>
@@ -20,6 +26,7 @@
         <li>Comedy</li>
         <li>Sci-Fi</li>
     </ul>
+    
 
     <ol>
         <p>Favorite Foods</p>
@@ -28,20 +35,27 @@
         <li>Peanut Butter</li>
         <li>Banana Nut Bread
             <ul>
-                <li>Banana Nut Bread with Peanut Butter. So Good!</li>
+                <li>Banana Nut Bread with Peanut Butter, so Good!</li>
             </ul>
         </li>
     </ol>
+    </div>
     
     <br>
-    <p>Here's a relaxing video of the night sky</p>
-    <video controls>
-        <source src="video.mp4">
-    </video>
+    <div class="video">
+        <p>Here's a relaxing video of the night sky</p>
+        <video controls>
+            <source src="video.mp4">
+        </video>
+    </div>
 
     <hr>
+
+    <div class="table">
     <table>
+
         <thead>Students</thead>
+        
         <tr>
             <th>Name</th>
             <th>E-mail</th>
@@ -64,30 +78,35 @@
         </tr>
         <tr>
             <td>Marquita</td>
-            <td>marquita@mail.com</td>
+            <td>marq@mail.com</td>
             <td>Front End Wed Developer</td>
         </tr>
     </table>
+    </div>
 
     <br>
     <id id="#">ID Element: id: "#"</id>
     <p class="example">Class Element: class="text"</p>
 
-    <form action="#">
-        <label for="name">Name:</label>
-        <br>
-        <input type="text" id="name" name="user_name">
-        <br>
+    
+    <div>
+        <h2>Contact Me: Let's work together.</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="user_name">
+            <br>
 
-        <label for="email">Email:</label>
-        <br>
-        <input type="text" id="email" name="user_email">
-        <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email" name="user_email">
+            <br>
 
-        <label for="name">Password:</label>
-        <br>
-        <input type="password" id="password" name="user_password">
-        <br>
+            <label for="name">Password:</label>
+            <br>
+            <input type="password" id="password" name="user_password">
+            <br>
+        </div>
 
         <br>
         <p>About Me:</p>
