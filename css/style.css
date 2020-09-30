@@ -40,7 +40,7 @@ a:hover {
 .table {
     text-align: center;
     font-weight: 500;
-    padding: 15px 25px;
+    padding: 35px 45px;
     border: solid #0E3B43 3px;
     line-height: 2.5rem;
 }
@@ -48,4 +48,42 @@ a:hover {
 
 table {
     color: #F68E5F;
+    letter-spacing: .3rem;
+    margin: 10px;
+}
+
+
+
+
+.elements {
+    border: solid 2px #F68E5F;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+
+
+
+
+
+.contact {
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+footer {
+    color: #fff;
+    background: #0E3B43;
+    width: auto;
+    height: 95px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
 }
