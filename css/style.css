@@ -32,9 +32,34 @@ a:hover {
 
 .favs p {
     color: #F68E5F;
-    font-weight: 400;
+    font-weight: 600;
     border-bottom: solid 2px #F68E5F;
     width: 25%;
+}
+
+
+
+
+/* ===== Joke ===== */
+.joke {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background: #0E3B43;
+    color: #F5F1E3;
+    text-align: center;
+}
+
+.joke h3 {
+    padding-top: 20px;
+    color: #F68E5F;
+}
+
+.joke p {
+    width: 75%;
+    margin: auto;
+    line-height: 320%;
 }
 
 .table {
@@ -76,6 +101,8 @@ table {
     margin-top: 40px;
     text-align: center;
 }
+
+
 
 
 footer {
