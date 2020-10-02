@@ -1,142 +1,140 @@
+<!-- ! I love the colors! I think this looks really good! You did miss one step, I think you might have meant to do it with the favs class? 5) In the main part of your website, create a new div. Add a paragraph inside of the div.  Give the parent div a fixed width and height. Give the child paragraph a percentage width and height. I'll have to take points off, however if you add this in and resubmit I'll give you credit back. Great work -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    
-    <div class="intro">
-        <h1>Hello and Welcome everyone</h1>
-        <p>Here's a link to one of my favorite sites</p>
-        <a href="https://www.rottentomatoes.com/" target="blank_" class="likeRT">One of my favorite sites to visit: Rotten Tomatoes</a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="intro">
+			<h1>Hello and Welcome everyone</h1>
+			<p>Here's a link to one of my favorite sites</p>
+			<a href="https://www.rottentomatoes.com/" target="blank_" class="likeRT">One of my favorite sites to visit: Rotten Tomatoes</a>
 
-        <p>I'm a <strong>huge</strong> movie fan and also grew up watching a lot of <em>Anime.</em></p>
-    </div>
+			<p>I'm a <strong>huge</strong> movie fan and also grew up watching a lot of <em>Anime.</em></p>
+		</div>
 
+		<!-- ! favs class never gets styled in the CSS -->
+		<div class="favs container">
+			<ul>
+				<p>Favorite Movie Genres</p>
+				<li>Action</li>
+				<li>Horror</li>
+				<li>Comedy</li>
+				<li>Sci-Fi</li>
+			</ul>
 
-    <div class="favs">
-    <ul>
-        <p>Favorite Movie Genres</p>
-        <li>Action</li>
-        <li>Horror</li>
-        <li>Comedy</li>
-        <li>Sci-Fi</li>
-    </ul>
-    
+			<ol>
+				<p>Favorite Foods</p>
+				<li>Pizza</li>
+				<li>Chocolate</li>
+				<li>Peanut Butter</li>
+				<li>
+					Banana Nut Bread
+					<ul>
+						<li>Banana Nut Bread with Peanut Butter, so Good!</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
 
-    <ol>
-        <p>Favorite Foods</p>
-        <li>Pizza</li>
-        <li>Chocolate</li>
-        <li>Peanut Butter</li>
-        <li>Banana Nut Bread
-            <ul>
-                <li>Banana Nut Bread with Peanut Butter, so Good!</li>
-            </ul>
-        </li>
-    </ol>
-    </div>
-    
-    <br>
-    <div class="video">
-        <p>Here's a relaxing video of the night sky</p>
-        <video controls>
-            <source src="video.mp4">
-        </video>
-    </div>
+		<br />
+		<div class="video container">
+			<p>Here's a relaxing video of the night sky</p>
+			<video controls>
+				<source src="video.mp4" />
+			</video>
+		</div>
 
-    <hr>
+		<div class="container">
+			<hr />
+		</div>
 
-    <div class="table">
-    <table>
+		<div class="table container">
+			<table>
+				<thead>
+					Students
+				</thead>
 
-        <thead>Students</thead>
-        
-        <tr>
-            <th>Name</th>
-            <th>E-mail</th>
-            <th>Title</th>
-        </tr>
-        <tr>
-            <td>Audi</td>
-            <td>audi@mail.com</td>
-            <td>Front End Wed Developer</td>
-        </tr>
-        <tr>
-            <td>Ezra</td>
-            <td>ezra@mail.com</td>
-            <td>Front End Wed Developer</td>
-        </tr>
-        <tr>
-            <td>Allin</td>
-            <td>allin@mail.com</td>
-            <td>Front End Wed Developer</td>
-        </tr>
-        <tr>
-            <td>Marquita</td>
-            <td>marq@mail.com</td>
-            <td>Front End Wed Developer</td>
-        </tr>
-    </table>
-    </div>
+				<tr>
+					<th>Name</th>
+					<th>E-mail</th>
+					<th>Title</th>
+				</tr>
+				<tr>
+					<td>Audi</td>
+					<td>audi@mail.com</td>
+					<td>Front End Wed Developer</td>
+				</tr>
+				<tr>
+					<td>Ezra</td>
+					<td>ezra@mail.com</td>
+					<td>Front End Wed Developer</td>
+				</tr>
+				<tr>
+					<td>Allin</td>
+					<td>allin@mail.com</td>
+					<td>Front End Wed Developer</td>
+				</tr>
+				<tr>
+					<td>Marquita</td>
+					<td>marq@mail.com</td>
+					<td>Front End Wed Developer</td>
+				</tr>
+			</table>
+		</div>
 
-    <br>
-    <div class="elements">
-        <h2>Which are you</h2>
-        <input type="radio" id="Front-end" name="title" value="Front-end">
-        <label id="#">Front-end Web Developer</label><br>
+		<br />
+		<div class="elements container">
+			<h2>Which are you</h2>
+			<input type="radio" id="Front-end" name="title" value="Front-end" />
+			<label id="#">Front-end Web Developer</label><br />
 
-        
-        <input type="radio" id="Back-end" name="title" value="Back-end">
-        <label class="example">Back-end Web Developer</label>
-    </div>   
-    
-    <div class="contact">
-        <h2>Contact Me: Let's work together.</h2>
-        <form action="#">
-            <label for="name">Name:</label>
-            <br>
-            <input type="text" id="name" name="user_name">
-            <br>
+			<input type="radio" id="Back-end" name="title" value="Back-end" />
+			<label class="example">Back-end Web Developer</label>
+		</div>
 
-            <label for="email">Email:</label>
-            <br>
-            <input type="text" id="email" name="user_email">
-            <br>
+		<div class="contact container">
+			<h2>Contact Me: Let's work together.</h2>
+			<form action="#">
+				<label for="name">Name:</label>
+				<br />
+				<input type="text" id="name" name="user_name" placeholder="Enter your name..." />
+				<br />
 
-            <label for="phone">Phone:</label>
-            <br>
-            <input type="tel" id="phone" name="user_phone">
-            <br>
-        
+				<label for="email">Email:</label>
+				<br />
+				<input type="text" id="email" name="user_email" placeholder="Enter your email..." />
+				<br />
 
-        <br>
-        <p>About Me:</p>
-        <textarea name="user-bio" id="bio" cols="30" rows="10"></textarea>
-        <br>
-            <label for="gender">Gender</label>
-            <select name="gender" id="male">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-    </div>
-        <br>
-        
-        
-        <input type="submit" value="Submit">
-    </form>
+				<label for="phone">Phone:</label>
+				<br />
+				<input type="tel" id="phone" name="user_phone" placeholder="Enter your phone..." />
+				<br />
 
+				<!-- ? With the added margin we shouldn't need this extra <br> anymore -->
+				<!-- <br /> -->
+				<p>About Me:</p>
+				<textarea name="user-bio" id="bio" cols="30" rows="10"></textarea>
+				<br />
+				<label for="gender">Gender</label>
+				<select name="gender" id="male">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+				<!--! Missed closing select tag-->
+				<br />
 
-    <footer>
-        <a href="#top">Back to top</a>
-    </footer>
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
 
-
-
-
-</body>
+		<footer>
+			<a href="#top">Back to top</a>
+		</footer>
+	</body>
 </html>

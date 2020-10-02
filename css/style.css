@@ -1,89 +1,130 @@
+/*! I love the colors! I think this looks really good! You did miss one step, I think you might have meant to do it with the favs class? 5) In the main part of your website, create a new div. Add a paragraph inside of the div.  Give the parent div a fixed width and height. Give the child paragraph a percentage width and height. I'll have to take points off, however if you add this in and resubmit I'll give you credit back. Great work */
 
-body {
-    font-family: 'Quicksand', sans-serif;
-    background: #F5F1E3;
-    font-size: 20px;
-    color: #0E3B43;
+/* ? I didn't cover this in class but this will make the page scroll a little smoother, check it out. */
+html {
+	scroll-behavior: smooth;
 }
 
+body {
+	/* ? I like this font! */
+	font-family: 'Quicksand', sans-serif;
+	background: #f5f1e3;
+	font-size: 20px;
+	color: #0e3b43;
+}
+
+/* ! I didn't want to mess with any margin you set but I needed to remove these two for simplicities sake. Again I usually remove margin & padding on everything by default. */
+body,
+p {
+	margin: 0;
+}
+
+/* ? Just centering some stuff */
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
 
 .intro {
-    background: #0E3B43;
-    color: #fff;
-    text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+	background: #0e3b43;
+	color: #fff;
+	text-align: center;
+	/* ! Nice use of rems */
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 }
 
 a {
-    text-decoration: none;
-    color: #1B9AAA;
+	text-decoration: none;
+	color: #1b9aaa;
 }
 
 a:hover {
-    color: tomato;
+	color: tomato;
 }
-
 
 .video {
-    align-content: center;
-    text-align: center;
+	align-content: center;
+	text-align: center;
 }
 
+/* ! No .favs styling maybe this got left out? */
+
 .favs p {
-    color: #F68E5F;
-    font-weight: 400;
-    border-bottom: solid 2px #F68E5F;
-    width: 25%;
+	color: #f68e5f;
+	font-weight: 400;
+	border-bottom: solid 2px #f68e5f;
+	width: 25%;
 }
 
 .table {
-    text-align: center;
-    font-weight: 500;
-    padding: 35px 45px;
-    border: solid #0E3B43 3px;
-    line-height: 2.5rem;
+	text-align: center;
+	font-weight: 500;
+	padding: 35px 45px;
+	border: solid #0e3b43 3px;
+	line-height: 2.5rem;
 }
-
 
 table {
-    color: #F68E5F;
-    letter-spacing: .3rem;
-    margin: 10px;
+	color: #f68e5f;
+	letter-spacing: 0.3rem;
+	margin: 10px;
 }
-
-
-
 
 .elements {
-    border: solid 2px #F68E5F;
-    width: 500px;
-    height: auto;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
+	border: solid 2px #f68e5f;
+	width: 500px;
+	height: auto;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
 }
-
-
-
-
-
 
 .contact {
-    margin: auto;
-    margin-top: 40px;
-    text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+	width: 50%;
 }
 
+/* ? Harcourt extra styles */
+.contact input,
+textarea {
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+
+.contact input {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+}
+
+.contact select {
+	padding: 0.2rem 1rem;
+}
+
+.contact input[type='submit'] {
+	background: tomato;
+	color: #fff;
+	margin-top: 1rem;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact input[type='submit']:hover {
+	opacity: 0.9;
+}
+/* ? Harcourt extra styles */
 
 footer {
-    color: #fff;
-    background: #0E3B43;
-    width: auto;
-    height: 95px;
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 25px;
+	color: #fff;
+	background: #0e3b43;
+	width: auto;
+	height: 95px;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 25px;
 }
